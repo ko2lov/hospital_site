@@ -1,0 +1,168 @@
+html{
+    box-sizing: border-box;
+}
+i, cite, em, var, address, dfn {
+  font-style: normal;
+  }
+*, *::before , *::after{
+    box-sizing:border-box;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('/src/fonts/ProximaNova-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'El Messiri';
+	src: url('/src/fonts/ElMessiri-Bold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+/* HEADER */
+.header{
+    background-color:#162831;
+
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+.header-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{
+    max-width: 655px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.header-list-item{
+    margin-right: 50px;
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #fff;
+    height: 19px;
+
+}
+.header-list-item:last-child{
+    margin-right: 0px;
+}
+.header-list-item-link{
+    text-decoration: none;
+    height: 19px;
+    color: #fff;
+}
+
+.hero{
+    background-color:#162831;
+}
+
+.container-hero{
+    padding-top: 20px;
+    background-image:url(/src/img/hero-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+}
+.container-h3{
+    padding-top: 136px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items:center;
+    width: 429px;
+    
+
+}
+.right-list{
+    height: 14px;
+    weight: 28px;
+
+}
+.left-list{
+    height: 14px;
+    weight: 28px;
+
+
+}
+.hero-subtitle{
+    
+    font-family: 'El Messiri';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.hero-title{
+    padding-top: 40px;
+    padding-bottom: 210px;
+    width: 587px;
+    font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 90px;
+
+/* or 90px */
+text-align: center;
+
+/* white */
+color: #FFFFFF;
+}
+
+
+/* sessions */
+
+.sessions{
+    background-color:#162831;
+}
+.h2{
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+    /* identical to box height, or 59px */
+    text-align: center;
+    
+    /* white */
+    color: #FFFFFF;
+}
+
+
+.sessions-heading{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items:center;
+}
+.blue-left-list{
+    width: 28px;
+    height: 14px;
+    margin-right: 50px;
+}
+.blue-right-list{
+    width: 28px;
+    height: 14px;
+    margin-left: 50px;
+}
+.sessions{
+    padding-top: 150px;
+}
